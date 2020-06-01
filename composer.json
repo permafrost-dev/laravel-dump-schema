@@ -1,5 +1,5 @@
 {
-    "name": "permafrost-dev/laravel-ds",
+    "name": "permafrost-dev/laravel-dump-schema",
     "description": "Implementation of database schema dumping and loading to/from file, taken from Laravel v8 PR",
     "type": "library",
     "license": "MIT",
