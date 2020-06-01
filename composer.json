@@ -7,7 +7,7 @@
         "php": "^7.3",
         "illuminate/console": "^7.0||^6",
         "illuminate/support": "^7.0||^6",
-        "symfony/process": "^5.0"
+        "symfony/process": "^5.0||^4"
     },
     "require-dev": {
         "friendsofphp/php-cs-fixer": "^2.16",
@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Permafrost\\LaravelDS\\": "src"
+            "Permafrost\\LaravelDumpSchema\\": "src"
         }
     },
     "config": {
@@ -24,7 +24,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Permafrost\\LaravelDS\\LaravelDsServiceProvider"
+                "Permafrost\\LaravelDumpSchema\\LaravelDumpSchemaServiceProvider"
             ]
         }
     },

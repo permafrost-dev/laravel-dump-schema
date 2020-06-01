@@ -1,10 +1,10 @@
 <?php
 
-namespace Permafrost\LaravelDS;
+namespace Permafrost\LaravelDumpSchema;
 
 use Illuminate\Support\ServiceProvider;
 
-class LaravelDsServiceProvider extends ServiceProvider
+class LaravelDumpSchemaServiceProvider extends ServiceProvider
 {
     /**
      * Register any application services.

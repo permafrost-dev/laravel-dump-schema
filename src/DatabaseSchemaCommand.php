@@ -5,7 +5,7 @@
  * @see https://github.com/laravel/framework/pull/32275
  */
 
-namespace Permafrost\LaravelDS;
+namespace Permafrost\LaravelDumpSchema;
 
 use Illuminate\Console\Command;
 use Symfony\Component\Process\Process;
