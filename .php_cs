@@ -36,7 +36,7 @@ $fixers = [
     'lowercase_constants' => false,
     'lowercase_keywords' => true,
     'method_argument_space' => [
-        'ensure_fully_multiline' => true, 
+        'ensure_fully_multiline' => true,
     ],
     'no_break_comment' => true,
     'no_closing_tag' => true,
@@ -55,6 +55,7 @@ $fixers = [
     ],
     'single_import_per_statement' => true,
     'single_line_after_imports' => true,
+    'single_trait_import_per_statement' => false,
     'switch_case_semicolon_to_colon' => true,
     'switch_case_space' => true,
     'ternary_to_null_coalescing' => true,
@@ -62,7 +63,7 @@ $fixers = [
     'visibility_required' => true,
     'encoding' => true,
     'full_opening_tag' => true,
-    'yoda_style' => false,        
+    'yoda_style' => false,
 ];
 
 return PhpCsFixer\Config::create()
