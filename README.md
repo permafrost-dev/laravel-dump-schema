@@ -8,6 +8,14 @@ _Note: this code is a work in progress and should not be used in production._
 
 ---
 
+
+#### Installation
+
+You can Install this package with composer:
+`composer require permafrost-dev/laravel-dump-schema`
+
+---
+
 #### Usage
 
 You can either dump or load the database schema, avoiding the need to re-run migrations if they haven't changed:
@@ -17,4 +25,5 @@ You can either dump or load the database schema, avoiding the need to re-run mig
 
 ---
 
-Currently, these commands will use the filename `database/schema-dump.sql`.
+By default, these commands will use the filename `database/schema.sql` - it can be changed by specifying the `--filename` flag: 
+`--filename=foobar.sql`.
