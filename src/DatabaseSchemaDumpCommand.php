@@ -48,8 +48,8 @@ class DatabaseSchemaDumpCommand extends Command
             return;
         }
 
-        if (!file_exists($filename)) {
-            $this->info('The specified file does not exist.');
+        if (file_exists($filename)) {
+            $this->info('The specified file already exists, exiting.');
 
             return;
         }
