@@ -74,8 +74,8 @@ class DatabaseSchemaDumpCommand extends Command
     {
         try {
             $this->createSchemaDump($driver, $filename);
-            $this->removeAutoIncrementingState($driver, $filename);
-            $this->appendMigrationData($filename);
+            $this->removeAutoIncrementingState($filename);
+            $this->appendMigrationData($driver, $filename);
         } catch (\Exception $e) {
             return false;
         }
